@@ -116,6 +116,15 @@ a:hover::before {
   border-radius: 8px;
   display: block;
 }
+
+/* ++++++++++Add Animation++++++++*/
+.gallery img:hover,
+.gallery img:focus {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
 /* ==================Task-3==================*/
 .super-input {
   padding-left: 16px;
